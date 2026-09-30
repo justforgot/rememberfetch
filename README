@@ -1,0 +1,24 @@
+This project, rememberfetch is a fetch tool written fully in C.
+
+The goal of this project is to be as wildly efficient as possible,
+and simple as possible.
+
+This fetch tool will merely read the amount of ram in use/total and
+your linux distro.
+
+Supported operating systems include linux. (yes, thats it)
+
+This fetch tool is written purely for fun and I have no intention of
+maintaining it once I create it.
+
+BUILDING AND INSTALLING
+Currently the only way to install rememberfetch is to compile it manually
+using GCC and make:
+
+make: compiles and outputs binary to current directory
+
+make install: compiles and installs program to /bin (must be run as root)
+
+make clean: removes binary from current directory
+
+make uninstall: removes binary from /bin (must be run as root)
